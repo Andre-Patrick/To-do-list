@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    width: 300px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: lightblue;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-btn {
+    background-color: red;
+    border: 1px solid gray;
+}
